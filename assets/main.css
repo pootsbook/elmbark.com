@@ -1,0 +1,94 @@
+body {
+  color: #454545; 
+  font-family: Georgia;
+  margin: 0 auto;
+  max-width: 30em;
+  padding-bottom: 1em;
+}
+
+@media screen and (max-width: 32em) {
+  body {
+    margin: 0 1em;
+  }
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h1 + h2 {
+  margin-top: 0;
+}
+
+h1 {
+  color: #000;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1.2em;
+  font-style: italic;
+  color: #666;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+ul, ol {
+  padding-left: 0;
+  line-height: 1.5em;
+}
+
+ul li, ol li {
+  margin: 0;
+}
+
+.highlight {
+  padding: 0.3em 1em;
+  margin-left: -1em;
+  margin-right: -1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.references h3 {
+  border-top: 1px solid #dadada;
+  padding-top: 1em;
+  font-variant: small-caps;
+  font-weight: normal;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  margin: 1em 0 0 0;
+}
+
+.references ul {
+  margin-top: 0;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #dadada;
+  margin-bottom: 4em;
+}
+
+.references ul li {
+  margin: 0;
+}
+
+.footnotes {
+  border-top: 1px solid #dadada;
+  padding-top: 1em;
+  margin-top: 1em;
+  font-size: 0.8em;
+}
+
+.footnotes ol {
+  padding-left: 0;
+}
+
+sup, sub {
+ vertical-align: baseline;
+ position: relative;
+ top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}

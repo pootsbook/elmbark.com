@@ -1,0 +1,6 @@
+# Global Configuration
+timezone: 'Europe/Amsterdam'
+permalink: '/:year/:month/:day/:title'
+
+# Custom Configuration
+production_url: www.elmbark.com
