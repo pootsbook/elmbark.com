@@ -14,7 +14,7 @@ It had promised to be a hands on tutorial and Evan did not disappoint. He had pr
 
 Here, in no particular order, are some of the things I picked up.
 
-### Modularity
+## Modularity
 
 I had raced through the Elm Architecture Tutorial and hadn’t quite appreciated that, in its eight steps, it teaches you all that you need to know about Elm architecture. This made me feel a lot better about not quite ‘getting it’ towards the later steps and gives me the assurance to go back and study the tutorial more slowly and methodically (without the nagging fear that I’m wasting time I could be using to learn *all the things*). The small surface area of Elm, its cognitive concision, is invigorating—and worthy of a post of its own.
 
@@ -24,7 +24,7 @@ The modularity is enhanced by allowing you tight control over what pieces from y
 
 The most enticing benefit is that you will only ever be dealing with at most three levels of abstraction at any one time. There is the level you are working at, and potentially the level above and/or below. That prospect is enough for me to lay down my multi-layered, tightly coupled, object-oriented tools.
 
-### Functional (Reactive) Programming
+## Functional (Reactive) Programming
 
 I cut my teeth as a programmer with Ruby which is object-oriented to the core. Kent Beck is supposed to have said, “I always thought that Smalltalk would beat Java, I just didn’t know that it would be called Ruby when it did.”<sup>2</sup> Everything is an object, and practical object-oriented design is the written rule. In stark contrast, Elm is a functional language to its very core, and it is reactive, dealing with asynchronous data streams or signals as a way to better implement responsive GUIs.
 
@@ -36,13 +36,13 @@ Tasks are Elm’s way of communicating with the outside world, e.g., HTTP or the
 
 I feel like this is the area where I will need to put most of my learning effort.
 
-### Elm’s Future
+## Elm’s Future
 
 If I remember correctly Evan said he started working on Elm some time in 2011 for his senior thesis—and he doesn’t sound like he will be stopping soon. In the faddish and ephemeral world of front-end development, playing the long game may seem like a fool’s errand. I, for one, am very grateful for the tremendous amount of work that he has clearly put into Elm. When discussing the helpful, almost human, compiler error messages, Evan declared it was important to get these things right at the beginning if you’re going to be going years and years (paraphrase from notes). This meticulous attention to detail, both in language design and user experience  is why I think Elm will continue to go from strength to strength. 
 
 It’s not quite there yet (wherever _there_ is), but it is incredibly close, and it will get there. It’s only a matter of time. A cursory perusal of Twitter will confirm that the reaction to encountering Elm is euphoric. And it’s not the hipsters who are cargo-culting but leaders in the thick of front-end innovation are recognising it as the most obvious thing they never thought of. And that’s when you know you’re onto a good thing. Elm is fast approaching the tipping point. 
 
-### Miscellaneous
+## Miscellaneous
 
 There were a number of other interesting tidbits that I picked up that I’ll jot down here and maybe fill out at a later stage:
 

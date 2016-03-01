@@ -10,13 +10,13 @@ Now that we have seen the [view][v] and the [model][m], it’s time to investiga
 
 Up until this point our application has been static, i.e., there is no way to change the state unless we actually edit the code and recompile. If we’re in this malarkey to build dynamic web applications this isn’t terribly useful—we’re not doing a very good job.
 
-### Application Communication
+## Application Communication
 
 The update function allows actions to be carried out and to affect the application state (our model) which can then be reflected in the UI (our view). We have previously seen the flow of data in that direction (model -> view) and we will see that update gives us the opportunity to communicate in the other direction (view -> model).
 
 Elm accomplishes the flow of data with Signals; streams of data which our application can react to, or better defined, simply a value that changes over time. The archetypal example is that of mouse position which changes when the user moves the mouse.<sup>1</sup> We don’t necessarily need to know the ins and outs of Signals to get going with Elm as it handily provides a module for us that takes care of all the plumbing and wiring for us: `StartApp.Simple`.
 
-### StartApp.Simple
+## StartApp.Simple
 
 When we import this, we do need to be aware of what we need to do in our code to satisfy its requirements. There are two modifications we can make to the code we have. 
 
@@ -50,7 +50,7 @@ The first is to provide an `address` argument to the view function. This acts as
 
 If we compile and run the program (using [Try Elm][try-elm]) then we get exactly the same output as before, but we have laid the foundation for integrating interactivity. 
 
-### Our First Action
+## Our First Action
 
 In Part 1, I mentioned that for an action we needed two things, a Union type enumerating a set of actions, and an update function with all available actions in a case statement. There’s also a third element, and that is a means of calling the action.
 
@@ -96,7 +96,7 @@ Let’s add a button with an `onClick` action that changes the greeting from “
         , button [ onClick address SayHi ] [ text "Say Hi!" ] -- (3)
         ]
 
-### Our Second Action
+## Our Second Action
  
 The beauty of this approach becomes clear when we see how simple it is to add another action; we only have to repeat ourselves. I’ve numbered the changes as before.
 
@@ -144,7 +144,7 @@ The beauty of this approach becomes clear when we see how simple it is to add an
         , button [ onClick address SayBye ] [ text "Say Bye!" ] -- (3)
         ]
 
-### Conclusion
+## Conclusion
 
 I hope in these three posts I have been able to communicate some of the simplicity, elegance and beauty of Elm by putting together the most basic application that could work while explaining bits and pieces along the way. What is most attractive to me is that by means of functional composition, i.e. putting these pieces together (Model-Update-View), and also treating the whole as a unit that can also be put together with other units, we don’t get much more complicated than this (conceptually, architecturally) as we scale our application.
 

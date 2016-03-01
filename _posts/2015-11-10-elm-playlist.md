@@ -10,7 +10,7 @@ Tutorials, blog posts and articles are great for getting down to the nitty-gritt
 
 I’ve put the videos in the order I think they should be watched and emphasised the top three if you are limited for time. All of them are worth watching if you are serious about Elm or want to be persuaded.
 
-### Elm Conference Talks
+## Elm Conference Talks
 
 **Let’s be mainstream! User-focused design in Elm**  
 Evan Czaplicki _Curry on Conf Closing Keynote (July 2015)_.
@@ -51,7 +51,7 @@ Other good talks are:
 [react]: https://www.youtube.com/watch?v=1uRC3hmKQnM
 [elm-frp]: https://www.youtube.com/watch?v=F-nTU3Wy26I
 
-### Podcasts with Elm
+## Podcasts with Elm
 
 The two podcast episodes are from JavaScript Jabber and Ruby Rogues, two of my favourite tech podcasts. Both feature a double-act of Evan Czaplicki and Richard Feldman:
 

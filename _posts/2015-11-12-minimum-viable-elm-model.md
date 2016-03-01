@@ -36,7 +36,7 @@ There are a couple of improvements we can make if we look forward to what a more
     main =
       view model
 
-### Modeling with the Record Type
+## Modeling with the Record Type
 
 A string won’t get us very far when we have more data to model in our application, so typically the model will be of type Record. A Record bears a passing resemblance to a JavaScript Object but is intended for a much narrower use, i.e. not everywhere. A Record has fields and values, and each field/value pair can be of a different type. Let’s break our string down:
 

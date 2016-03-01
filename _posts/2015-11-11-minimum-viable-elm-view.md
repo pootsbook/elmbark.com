@@ -19,7 +19,7 @@ A stateless function that reacts to changes in the model and renders the result,
 
 Let’s work our way up to the Counter example, which is the starting point for the Elm Architecture Tutorial. In this post we start with the View.
 
-### Hello Elm!
+## Hello Elm!
 
 Technically we don’t *need* an interactive application if all we want to do is display something on the screen (view). That means we can leave out our state (model) and any interactivity (update). Let’s make a simple application that displays the text “Hello Elm!”.
 
@@ -34,7 +34,7 @@ Have a go yourself with the [Elm Online Editor][online-editor]. Type the code in
 
 Note that the `main` function is picked up by the Elm runtime as the entry point to your application and it kicks everything off.
 
-### Elm HTML
+## Elm HTML
 
 A text node works, but we can move onto HTML elements. Let’s put our text in a `<div>`.
 
@@ -51,7 +51,7 @@ Elm uses Type Annotations, so the type annotation for `div` looks like this:
 
 which is a much more concise way of what I wrote above in long hand.
 
-### Nesting
+## Nesting
 
 The following illustrates a fuller example with a more nested structure:
 
@@ -68,7 +68,7 @@ The following illustrates a fuller example with a more nested structure:
 
 We’ve opened up the `Html` import to include all functions with `..` and pulled in the `Html.Attributes` module to give us access to the `class` and `href` functions. If you have used the Haml or Jade templating engines before, you’ll spot the resemblance in syntax and structure.
 
-### Composition
+## Composition
 
 What’s really nice is that we can start to break up that example into smaller parts and compose it back into the whole. This is where the functional nature of Elm allows us to do with our ‘template’ what we do with our code—because it is code.
 
@@ -89,7 +89,7 @@ What’s really nice is that we can start to break up that example into smaller 
 
 Although this example is a little contrived, you can see how easy it would be to break up more complex sections of UI to keep things neat and tidy.
 
-### Making the View Explicit
+## Making the View Explicit
 
 The last optimization we can make to better perceive the Elm Architecture is to name a `view` function which is in turn called by `main`. Our first, simplest example would therefore look like this:
 
