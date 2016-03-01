@@ -3,24 +3,17 @@ layout:
 title: Elm RSS Feed
 ---
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <description>Musings on Elm from Philip Poots</description>
     <title>Elm Bark</title>
     <link>http://{{ site.production_url }}</link>
+    <atom:link href="http://{{ site.production_url}}/feed.rss" rel="self" type="application/rss+xml" />
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
     <ttl>1800</ttl>
 
     {% for post in site.posts %}
-      {% assign planet = false %}
-      {% for t in post.tags %}
-        {% if t == 'Elm' %}
-          {% assign planet = true %}
-        {% endif %}
-      {% endfor %}
-
-      {% if planet == true %}
       <item>
         <title>{{ post.title }}</title>
         <description>
@@ -31,7 +24,6 @@ title: Elm RSS Feed
         <guid>http://{{ site.production_url }}{{ post.id }}</guid>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
       </item>
-      {% endif %}
     {% endfor %}
 
   </channel>

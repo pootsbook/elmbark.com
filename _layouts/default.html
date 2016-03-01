@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html lang="en-GB">
   <head>
-    <meta charset=utf-8 />
-    <meta name="viewport" content="width=device-width">
+    <meta charset='utf-8' />
+    <!-- Load fonts first -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700">
+
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/main.css" />
+    <link rel="stylesheet" href="/assets/elmbark.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/elm.rss">
   </head>
 
   <body>
-    <p><em>Barking mad about Elm</em></p>
-    {{ content }}
+    <div class="full-width-background top">
+      <div class="container">
+        <header class="masthead">
+          <h2 class="masthead-title">
+            <a href="/" title="Home">{{ site.title }}</a> <span>{{ site.tagline }}</span>
+          </h2>
+        </header>
+      </div>
+    </div>
+
+    <div class="container content">
+
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="footer">
+        <small>
+          Copyright &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> Philip Poots. All rights reserved.
+        </small>
+      </footer>
+    </div>
 
     {% include ga.html %}
   </body>
