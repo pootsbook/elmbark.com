@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 10 Reasons why Elm is going Mainstream in 2016
+title: 10 Reasons Elm is going Mainstream in 2016
 subtitle: Poots Punts
 ---
 
