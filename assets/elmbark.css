@@ -510,6 +510,10 @@ sup, sub {
  top: -0.4em;
 }
 
+img[alt~="headshot"] {
+  margin: auto;
+}
+
 sub {
   top: 0.4em;
 }
@@ -521,6 +525,9 @@ sub {
 footer {
   border-top: 1px solid #dadada;
   padding-top: 1em;
-  font-style: italic;
   padding-bottom: 1em;
+}
+
+.copyright-notice {
+  font-style: italic;
 }
