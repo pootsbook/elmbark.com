@@ -514,6 +514,10 @@ sub {
   top: 0.4em;
 }
 
+.twitter-tweet {
+  margin: auto;
+}
+
 footer {
   border-top: 1px solid #dadada;
   padding-top: 1em;
