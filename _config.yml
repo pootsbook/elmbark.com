@@ -1,6 +1,7 @@
 # Global Configuration
 timezone: 'Europe/Amsterdam'
 permalink: '/:year/:month/:day/:title'
+highlighter: null
 
 # Custom Configuration
 title: Elm Bark

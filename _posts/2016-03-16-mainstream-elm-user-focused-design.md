@@ -572,7 +572,7 @@ One example is that the time-travel debugger which we saw.
 
 Another example is automatic semantic versioning enforcement. This is something that I don’t know if a lot of people know about. Let’s say a new version of elm-html comes out and it’s a major change. You want to know what happened. We can run diff and it’ll say, “Hey, these two things were added and we changed colspan to take an int and rowspan to take an int.” What happened here is someone read the spec more carefully than me and realized that in those particular cases, you can’t give four pixels or 4%, you really have to give a number.
 
-```sh
+<pre><code class="bash">
 $ elm-package diff evancz/elm-html 1.0.0 2.0.0
 Comparing evancz/elm-html 1.0.0 to 2.0.0...
 This is a MAJOR change.
@@ -590,8 +590,7 @@ This is a MAJOR change.
 
       - rowspan : String -> Attribute
       + rowspan : Int -> Attribute
-
-```
+</code></pre>
 
 You can actually look, what exactly changed. This can be produced at any point. When someone’s going to release a package, we run this and say, “Hey, it looks like you added or moved such and such,” and we can say exactly, “This is a major change. This is a minor change. This is patch change.” That means every package that is released follows these rules. Maybe that’s feasible in some languages, but if we’re competing with JavaScript, this is a really nice thing.
 
