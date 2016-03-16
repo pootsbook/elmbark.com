@@ -47,7 +47,7 @@ So I am **Philip Poots**, and I am an Elm programmer. This is a picture of me:
 
 ![Philip Poots headshot](https://avatars3.githubusercontent.com/u/35313?v=3&s=200)
 
-I used to write Ruby, Rails, JavaScript and Ember, and I might still write that from time to time, but I’d prefer Elm. I’ve worked with and for the full gamut of businesses in my six year career, from one-man-bands, startups large and small, financial services, and a FTSE 100 company.
+My background is Ruby, Rails, JavaScript and Ember, and now Elm. I’ve worked with and for the full gamut of businesses in my six year career, from one-man-bands, startups large and small, financial services, and the FTSE 100.
 
 I’m currently taking a well-earned break from salaried employment and putting my money where my mouth is with a “learning sabbatical” (I keep telling people that software development would be more effective if we granted “learning leave” for at least a third of our working hours). I’d actually planned on taking a break, full stop, but then Elm came along.
 
