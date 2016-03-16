@@ -8,7 +8,7 @@ This is easily the best talk currently available for grasping the essence of Elm
 
 I thought it would be useful to have a written record for easy reference so I got it transcribed and am sharing it here on the blog. I managed to grab some screenshots in absence of slides and have included code where necessary to adequately reflect the context. Any headings or emphasis mine, purely to aid the reader.
 
-*Transcription is never perfect. If you spot any inaccuracies you can open a Pull Request with a correction. I have given the transcription a once over to remove verbal tics and ensure general faithfulness.*
+*Transcription is never perfect. If you spot any inaccuracies you can open a [Pull Request](https://github.com/pootsbook/elmbark.com/blob/gh-pages/_posts/2016-03-16-mainstream-elm-user-focused-design.md) with a correction. I have given the transcription a once over to remove verbal tics and ensure general faithfulness.*
 
 <hr>
 
