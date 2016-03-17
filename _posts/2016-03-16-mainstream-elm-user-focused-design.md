@@ -695,3 +695,7 @@ I’ll share an interesting experience on that. I’ve had people come up to me 
 *Transcription is never perfect. If you spot any inaccuracies you can open a [Pull Request](https://github.com/pootsbook/elmbark.com/blob/gh-pages/_posts/2016-03-16-mainstream-elm-user-focused-design.md) with a correction. I have given the transcription a once over to remove verbal tics and ensure general faithfulness.*
 
 —*Wednesday 16th March 2016*.
+
+<div class="bonus">
+  {% include talk-cheatsheet.html %}
+</div>
