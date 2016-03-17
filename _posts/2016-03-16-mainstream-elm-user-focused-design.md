@@ -6,10 +6,6 @@ subtitle: Transcription of a talk by Evan Czaplicki
 
 This is easily the best talk currently available for grasping the essence of Elm. It was delivered by Elm creator Evan Czaplicki as the closing keynote for the Curry On conference in Prague on Tuesday, 7th July 2015.
 
-I thought it would be useful to have a written record for easy reference so I got it transcribed and am sharing it here on the blog. I managed to grab some screenshots in absence of slides and have included code where necessary to adequately reflect the context. Any headings or emphasis mine, purely to aid the reader.
-
-*Transcription is never perfect. If you spot any inaccuracies you can open a [Pull Request](https://github.com/pootsbook/elmbark.com/blob/gh-pages/_posts/2016-03-16-mainstream-elm-user-focused-design.md) with a correction. I have given the transcription a once over to remove verbal tics and ensure general faithfulness.*
-
 <hr>
 
 ## Video
@@ -27,8 +23,6 @@ If functional programming is so great, why is it still niche? We have a product 
 One factor is that we make things artificially hard to learn, sometimes with a seemingly pathological glee.
 
 So one of my primary goals is for Elm to be extraordinarily easy to learn and use productively. I want a new user to start playing with real code in minutes. I want programmers to feel confident in Elm in a few days. This talk will demonstrate some concrete cases where Elm uses language design, library design, terminology, and culture to accelerate learning and ultimately help people make delightful products.
-
-![](/assets/images/posts/1/001.png)
 
 *From the [Curry On Conference website](http://curry-on.org/2015/sessions/lets-be-mainstream-user-focused-design-in-elm.html).*
 
@@ -691,5 +685,13 @@ And example where I think we’re… I don’t really know what the answer is. I
 I’ll share an interesting experience on that. I’ve had people come up to me after talks and say, “Hey, that syntax looks a lot like Python, was that an influence?” And I was like, “No, but I’m so happy that you think that.” I think the style guide that we’ve set up for Elm is going to help a lot with the perception of craziness. For people that are coming from stuff like CoffeeScript it’s not that wild in terms of syntax. I’m making a bet that we can get away with certain things, especially if the overall message is, **it’s really important to make things easy to learn**.
 
 <hr>
+
+## Slides
+
+<iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="550" height="400" src="https://prezi.com/embed/yqvayjtfd5rd/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5bDNBcU9nTmhqU21TWW96YWJZbXBOMEVBPT0&amp;landing_sign=Zt4TuYIcj_R6Ak2YkWzuXgIG_TadcCJHyaU76JtN48w"></iframe>
+
+<hr>
+
+*Transcription is never perfect. If you spot any inaccuracies you can open a [Pull Request](https://github.com/pootsbook/elmbark.com/blob/gh-pages/_posts/2016-03-16-mainstream-elm-user-focused-design.md) with a correction. I have given the transcription a once over to remove verbal tics and ensure general faithfulness.*
 
 —*Wednesday 16th March 2016*.
