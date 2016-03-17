@@ -102,7 +102,7 @@ This isn’t to scale. I don’t know how small that red dot should be, but… T
 
 #### What do Programmers want?
 
-If this giant group of front-end programmers are going to be deciding, we should understand what they want in this next era of programming. **I think there are two main axises that we can think about that are helpful here.** We have JavaScript and the x-axis here are usable. What I mean by usable is the ability to use it.
+If this giant group of front-end programmers are going to be deciding, we should understand what they want in this next era of programming. **I think there are two main axes that we can think about that are helpful here.** We have JavaScript and the x-axis here are usable. What I mean by usable is the ability to use it.
 
 ![](/assets/images/posts/1/015.png)
 
