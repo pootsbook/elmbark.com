@@ -215,7 +215,7 @@ A nice example of this in Elm that came out recently is called `StartApp`. This 
 ```elm
 import Html exposing (div, button, text)
 import Html.Events exposing (onClick)
-import StartApp
+import StartApp.Simple as StartApp
 
 
 main =
@@ -225,7 +225,7 @@ main =
 model = 0
 
 
-view = address model =
+view address model =
   div []
     [ button [ onClick address Decrement ] [ text "-" ]
     , div [] [ text (toString model) ]
