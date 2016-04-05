@@ -1,0 +1,91 @@
+---
+---
+$elm-blue: rgb(80, 195, 212)
+$elm-yellow: rgb(255, 176, 58)
+$elm-green: rgb(146, 217, 97)
+$elm-gray: rgb(106, 119, 137)
+
+
+.weekly-container *
+  box-sizing: border-box
+  transition: all .5s linear
+
+.weekly-container
+  margin: 0
+  background-color: white
+  // Looks like this is used to transform it back into the Elm logo  
+  &:hover .diamond
+    transform: rotate(45deg) translate(79px, -65.5px)
+    
+  &:hover .parallelogram
+    transform: rotate(135deg) translate(-66px, -9px) skewY(45deg)
+  
+  &:hover .yellow.triangle.right
+    transform: translate(79px, 31px) rotate(90deg) scale(0.47)
+    
+  &:hover .yellow.triangle.bottom
+    transform: translate(31px, -17px) scale(0.47)
+    
+  &:hover .blue.triangle.large
+    transform: translate(32px, 32px) rotate(180deg)
+    
+  &:hover .blue.triangle.medium
+    transform: translate(77px, -50px) rotate(-135deg) scale(0.7) 
+  
+  &:hover .gray.triangle
+    transform: rotate(-90deg)
+
+.weekly
+  position: relative
+  margin: 100px auto 100px 
+  width: 260px
+  
+  & *
+    position: absolute
+
+// Base class for triangle
+.triangle
+  &, &:after
+    width: 0
+    height: 0
+    border-left: 60px solid transparent
+    border-right: 60px solid transparent
+    border-top: 60px solid #FFF
+  
+
+.diamond
+  transform: rotate(45deg)
+  
+  // square / diamond
+  &, &:after
+    width: 41px
+    height: 41px
+    background-color: $elm-green
+  
+.parallelogram
+  &, &:after
+    width: 41px
+    height: 41px
+    background-color: $elm-green
+    transform: translate(-46px, -46px) rotate(-45deg) skewY(-45deg)
+    
+.yellow.triangle.right
+  border-top-color: $elm-yellow
+  transform: translate(-55px, -40px) rotate(270deg) scale(0.47)
+  
+.yellow.triangle.bottom
+  border-top-color: $elm-yellow
+  transform: translate(-9px, -25px) scale(0.47)
+  
+
+.blue.triangle.large
+  border-top-color: $elm-blue
+  transform: translate(23px, -71px) rotate(180deg)
+  
+.blue.triangle.medium
+  border-top-color: $elm-blue
+  transform:  scale(0.7) translate(184px, -80px) rotate(315deg)
+
+.gray.triangle
+  border-top-color: $elm-gray
+  transform: translate(81px, -9px)
