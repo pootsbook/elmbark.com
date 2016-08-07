@@ -53,3 +53,13 @@ I’m currently taking a well-earned break from salaried employment and putting 
 
 I’m originally from Northern Ireland (Belfast), and after spells in Scotland (St Andrews) and England (Durham, Newcastle upon Tyne) I am now based in the Netherlands with my Dutch wife and two children.
 
+## Where to go now?
+
+<div class="bonus">
+  {% include talk-cheatsheet.html %}
+</div>
+
+
+- [Home](/) List of content on this site.
+- [elm-lang.org](http://elm-lang.org/) Official Elm Website
+- [Documentation](http://elm-lang.org/docs) Official Elm Docs
