@@ -7,3 +7,9 @@ highlighter: null
 title: Elm Bark
 tagline: barking mad about Elm
 production_url: www.elmbark.com
+
+gostatic:
+  build:
+    command:
+    - apt-get install -y libffi-dev
+    - bundle exec jekyll build --trace --destination $SITE_DIR --config=_config.production.yml
